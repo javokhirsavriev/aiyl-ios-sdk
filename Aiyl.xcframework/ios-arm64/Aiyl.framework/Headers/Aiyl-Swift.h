@@ -332,16 +332,18 @@ SWIFT_CLASS("_TtCC4Aiyl10AiylAction6Cancel")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class UIImage;
 @class UIColor;
 
 SWIFT_CLASS("_TtC4Aiyl14AiylAppearance")
 @interface AiylAppearance : NSObject
-@property (nonatomic, strong) UIImage * _Nullable logo;
 @property (nonatomic, strong) UIColor * _Nullable colorPrimary;
 @property (nonatomic, strong) UIColor * _Nullable colorError;
-@property (nonatomic, strong) UIColor * _Nullable colorBackground;
-@property (nonatomic, strong) UIColor * _Nullable colorForeground;
+@property (nonatomic, strong) UIColor * _Nullable colorDash;
+@property (nonatomic, strong) UIColor * _Nullable colorHelperTextBackground;
+@property (nonatomic, strong) UIColor * _Nullable colorCircleIndicatorActive;
+@property (nonatomic, strong) UIColor * _Nullable colorCircleIndicatorInactive;
+@property (nonatomic, strong) UIColor * _Nullable colorProgressIndicatorActive;
+@property (nonatomic, strong) UIColor * _Nullable colorProgressIndicatorInactive;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
@@ -362,11 +364,13 @@ SWIFT_PROTOCOL("_TtP4Aiyl18AiylClientDelegate_")
 
 enum AiylLocale : NSInteger;
 enum AiylEntryMode : NSInteger;
+enum AiylPresentationStyle : NSInteger;
 
 SWIFT_CLASS("_TtC4Aiyl10AiylConfig")
 @interface AiylConfig : NSObject
 @property (nonatomic) enum AiylLocale locale;
 @property (nonatomic) enum AiylEntryMode entryMode;
+@property (nonatomic) enum AiylPresentationStyle presentationStyle;
 @property (nonatomic, strong) AiylAppearance * _Nullable appearance;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
@@ -404,6 +408,7 @@ typedef SWIFT_ENUM(NSInteger, AiylPresentationStyle, open) {
   AiylPresentationStyleSheet = 1,
 };
 
+@class UIImage;
 @class NSURL;
 
 SWIFT_CLASS("_TtC4Aiyl10AiylResult")

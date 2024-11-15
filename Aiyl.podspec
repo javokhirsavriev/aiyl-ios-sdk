@@ -1,8 +1,8 @@
 Pod::Spec.new do |spec|
   spec.name               = "Aiyl"
-  spec.version            = "1.0.0"
-  spec.platform = :ios, '12.0'
-  spec.ios.deployment_target = '12.0'
+  spec.version            = "1.0.2"
+  spec.platform = :ios, '14.0'
+  spec.ios.deployment_target = '14.0'
   spec.summary            = "Aiyl Framework"
   spec.description        = "Aiyl Framework for iOS"
   spec.homepage           = "https://myid.uz"
