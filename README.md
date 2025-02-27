@@ -1,1 +1,1 @@
-# aiyl-ios-sdk
+# Aiyl iOS SDK
