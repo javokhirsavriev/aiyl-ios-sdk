@@ -110,6 +110,7 @@ import _SwiftConcurrencyShims
   @objc public var entryMode: Aiyl.AiylEntryMode
   @objc public var presentationStyle: Aiyl.AiylPresentationStyle
   @objc public var appearance: Aiyl.AiylAppearance?
+  @objc public var withSound: Swift.Bool
   @objc override dynamic public init()
   @objc deinit
 }

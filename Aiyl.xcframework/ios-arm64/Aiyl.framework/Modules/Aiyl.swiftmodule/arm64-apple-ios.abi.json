@@ -2207,6 +2207,47 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Aiyl",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MediaPipeTasksVision",
+        "printedName": "MediaPipeTasksVision",
+        "declKind": "Import",
+        "moduleName": "Aiyl"
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "Aiyl"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Aiyl",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MediaPipeTasksVision",
+        "printedName": "MediaPipeTasksVision",
+        "declKind": "Import",
+        "moduleName": "Aiyl"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -2238,6 +2279,16 @@
         "printedName": "MediaPipeTasksVision",
         "declKind": "Import",
         "moduleName": "Aiyl"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Aiyl",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",
@@ -2511,40 +2562,6 @@
             "mangledName": "$sSY"
           }
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "Aiyl",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "Aiyl",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "MediaPipeTasksVision",
-        "printedName": "MediaPipeTasksVision",
-        "declKind": "Import",
-        "moduleName": "Aiyl"
-      },
-      {
-        "kind": "Import",
-        "name": "AVFoundation",
-        "printedName": "AVFoundation",
-        "declKind": "Import",
-        "moduleName": "Aiyl"
       },
       {
         "kind": "Import",
@@ -3268,23 +3285,6 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "Aiyl",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "MediaPipeTasksVision",
-        "printedName": "MediaPipeTasksVision",
-        "declKind": "Import",
-        "moduleName": "Aiyl"
-      },
-      {
-        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -3325,6 +3325,13 @@
         "kind": "Import",
         "name": "MediaPipeTasksVision",
         "printedName": "MediaPipeTasksVision",
+        "declKind": "Import",
+        "moduleName": "Aiyl"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftySound",
+        "printedName": "SwiftySound",
         "declKind": "Import",
         "moduleName": "Aiyl"
       },
@@ -4930,6 +4937,99 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "withSound",
+            "printedName": "withSound",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@Aiyl@objc(cs)AiylConfig(py)withSound",
+            "mangledName": "$s4Aiyl0A6ConfigC9withSoundSbvp",
+            "moduleName": "Aiyl",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Aiyl@objc(cs)AiylConfig(im)withSound",
+                "mangledName": "$s4Aiyl0A6ConfigC9withSoundSbvg",
+                "moduleName": "Aiyl",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Aiyl@objc(cs)AiylConfig(im)setWithSound:",
+                "mangledName": "$s4Aiyl0A6ConfigC9withSoundSbvs",
+                "moduleName": "Aiyl",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4Aiyl0A6ConfigC9withSoundSbvM",
+                "mangledName": "$s4Aiyl0A6ConfigC9withSoundSbvM",
+                "moduleName": "Aiyl",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init()",
@@ -5483,812 +5583,826 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Aiyl\/aiyl-ios-sdk\/Aiyl\/Presentation\/Facemesh detection\/ContentStepperView.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/aiyl-ios-sdk\/Aiyl\/Presentation\/Facemesh detection\/ContentStepperView.swift",
       "kind": "IntegerLiteral",
       "offset": 322,
       "length": 2,
       "value": "20"
     },
     {
-      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Aiyl\/aiyl-ios-sdk\/Aiyl\/Presentation\/Facemesh detection\/ContentStepperView.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/aiyl-ios-sdk\/Aiyl\/Presentation\/Facemesh detection\/ContentStepperView.swift",
       "kind": "BooleanLiteral",
       "offset": 387,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Aiyl\/aiyl-ios-sdk\/Aiyl\/Presentation\/Facemesh detection\/ContentStepperView.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/aiyl-ios-sdk\/Aiyl\/Presentation\/Facemesh detection\/ContentStepperView.swift",
       "kind": "IntegerLiteral",
       "offset": 703,
       "length": 2,
       "value": "15"
     },
     {
-      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Aiyl\/aiyl-ios-sdk\/Aiyl\/Presentation\/Facemesh detection\/ContentStepperView.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/aiyl-ios-sdk\/Aiyl\/Presentation\/Facemesh detection\/ContentStepperView.swift",
       "kind": "IntegerLiteral",
       "offset": 1232,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Aiyl\/aiyl-ios-sdk\/Aiyl\/Presentation\/Facemesh detection\/ContentStepperView.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/aiyl-ios-sdk\/Aiyl\/Presentation\/Facemesh detection\/ContentStepperView.swift",
       "kind": "BooleanLiteral",
       "offset": 1271,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Aiyl\/aiyl-ios-sdk\/Aiyl\/Presentation\/Facemesh detection\/ContentStepperView.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/aiyl-ios-sdk\/Aiyl\/Presentation\/Facemesh detection\/ContentStepperView.swift",
       "kind": "BooleanLiteral",
       "offset": 1341,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Aiyl\/aiyl-ios-sdk\/Aiyl\/Presentation\/Facemesh detection\/ContentStepperView.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/aiyl-ios-sdk\/Aiyl\/Presentation\/Facemesh detection\/ContentStepperView.swift",
       "kind": "IntegerLiteral",
       "offset": 1497,
       "length": 2,
       "value": "15"
     },
     {
-      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Aiyl\/aiyl-ios-sdk\/Aiyl\/Presentation\/Facemesh detection\/ContentStepperView.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/aiyl-ios-sdk\/Aiyl\/Presentation\/Facemesh detection\/ContentStepperView.swift",
       "kind": "IntegerLiteral",
       "offset": 2026,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Aiyl\/aiyl-ios-sdk\/Aiyl\/Presentation\/Facemesh detection\/ContentStepperView.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/aiyl-ios-sdk\/Aiyl\/Presentation\/Facemesh detection\/ContentStepperView.swift",
       "kind": "BooleanLiteral",
       "offset": 2065,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Aiyl\/aiyl-ios-sdk\/Aiyl\/Presentation\/Facemesh detection\/ContentStepperView.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/aiyl-ios-sdk\/Aiyl\/Presentation\/Facemesh detection\/ContentStepperView.swift",
       "kind": "BooleanLiteral",
       "offset": 2135,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Aiyl\/aiyl-ios-sdk\/Aiyl\/Core\/Extensions\/UIImage.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/aiyl-ios-sdk\/Aiyl\/Core\/Extensions\/UIImage.swift",
       "kind": "BooleanLiteral",
       "offset": 127,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Aiyl\/aiyl-ios-sdk\/Aiyl\/Core\/Extensions\/UIImage.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/aiyl-ios-sdk\/Aiyl\/Core\/Extensions\/UIImage.swift",
       "kind": "BooleanLiteral",
       "offset": 227,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Aiyl\/aiyl-ios-sdk\/Aiyl\/Presentation\/Document detection\/DocumentGraphicView.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/aiyl-ios-sdk\/Aiyl\/Presentation\/Document detection\/DocumentGraphicView.swift",
       "kind": "IntegerLiteral",
       "offset": 208,
       "length": 2,
       "value": "32"
     },
     {
-      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Aiyl\/aiyl-ios-sdk\/Aiyl\/Core\/Detector\/IdCardDetector.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/aiyl-ios-sdk\/Aiyl\/Core\/Detector\/IdCardDetector.swift",
       "kind": "StringLiteral",
-      "offset": 149,
-      "length": 139,
-      "value": "\"([A|C|I][A-Z0-9<])([A-Z]{3})([A-Z0-9<]{25})([0-9]{6})([0-9])([M|F|X|<])([0-9K<]{6})([0-9])([A-Z]{3})([A-Z0-9<]{11})([0-9])([A-Z0-9<]{30})\""
+      "offset": 161,
+      "length": 163,
+      "value": "\"([A|C|I][A-Z0-9<])([A-Z]{3})(AN|ID)([0-9<]{7})([A-Z0-9<]{16})([0-9]{6})([0-9OI])([M|F|X|<])([0-9K<]{6})([0-9OI])([A-Z]{3})([A-Z0-9<]{11})([0-9OI])([A-Z0-9<]{30})\""
     },
     {
-      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Aiyl\/aiyl-ios-sdk\/Aiyl\/Core\/Detector\/IdCardDetector.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/aiyl-ios-sdk\/Aiyl\/Core\/Detector\/IdCardDetector.swift",
       "kind": "BooleanLiteral",
-      "offset": 356,
+      "offset": 392,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Aiyl\/aiyl-ios-sdk\/Aiyl\/Presentation\/Base\/BaseScreen.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/aiyl-ios-sdk\/Aiyl\/Presentation\/Base\/BaseScreen.swift",
       "kind": "BooleanLiteral",
       "offset": 193,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Aiyl\/aiyl-ios-sdk\/Aiyl\/Presentation\/Base\/BaseScreen.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/aiyl-ios-sdk\/Aiyl\/Presentation\/Base\/BaseScreen.swift",
       "kind": "BooleanLiteral",
       "offset": 328,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Aiyl\/aiyl-ios-sdk\/Aiyl\/Capture\/Model\/AiylResult.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/aiyl-ios-sdk\/Aiyl\/Capture\/Model\/AiylResult.swift",
       "kind": "StringLiteral",
       "offset": 163,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Aiyl\/aiyl-ios-sdk\/Aiyl\/Capture\/Model\/AiylResult.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/aiyl-ios-sdk\/Aiyl\/Capture\/Model\/AiylResult.swift",
       "kind": "StringLiteral",
       "offset": 212,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Aiyl\/aiyl-ios-sdk\/Aiyl\/Presentation\/Resources\/Colors.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/aiyl-ios-sdk\/Aiyl\/Presentation\/Resources\/Colors.swift",
       "kind": "StringLiteral",
       "offset": 124,
       "length": 9,
       "value": "\"#00C877\""
     },
     {
-      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Aiyl\/aiyl-ios-sdk\/Aiyl\/Presentation\/Resources\/Colors.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/aiyl-ios-sdk\/Aiyl\/Presentation\/Resources\/Colors.swift",
       "kind": "StringLiteral",
       "offset": 175,
       "length": 9,
       "value": "\"#101012\""
     },
     {
-      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Aiyl\/aiyl-ios-sdk\/Aiyl\/Presentation\/Resources\/Colors.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/aiyl-ios-sdk\/Aiyl\/Presentation\/Resources\/Colors.swift",
       "kind": "StringLiteral",
       "offset": 227,
       "length": 9,
       "value": "\"#FFFFFF\""
     },
     {
-      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Aiyl\/aiyl-ios-sdk\/Aiyl\/Presentation\/Resources\/Colors.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/aiyl-ios-sdk\/Aiyl\/Presentation\/Resources\/Colors.swift",
       "kind": "StringLiteral",
       "offset": 281,
       "length": 9,
       "value": "\"#101012\""
     },
     {
-      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Aiyl\/aiyl-ios-sdk\/Aiyl\/Presentation\/Resources\/Colors.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/aiyl-ios-sdk\/Aiyl\/Presentation\/Resources\/Colors.swift",
       "kind": "StringLiteral",
       "offset": 330,
       "length": 9,
       "value": "\"#81838C\""
     },
     {
-      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Aiyl\/aiyl-ios-sdk\/Aiyl\/Presentation\/Resources\/Colors.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/aiyl-ios-sdk\/Aiyl\/Presentation\/Resources\/Colors.swift",
       "kind": "StringLiteral",
       "offset": 395,
       "length": 9,
       "value": "\"#00C877\""
     },
     {
-      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Aiyl\/aiyl-ios-sdk\/Aiyl\/Presentation\/Resources\/Colors.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/aiyl-ios-sdk\/Aiyl\/Presentation\/Resources\/Colors.swift",
       "kind": "StringLiteral",
       "offset": 462,
       "length": 9,
       "value": "\"#E5E7ED\""
     },
     {
-      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Aiyl\/aiyl-ios-sdk\/Aiyl\/Presentation\/Resources\/Colors.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/aiyl-ios-sdk\/Aiyl\/Presentation\/Resources\/Colors.swift",
       "kind": "StringLiteral",
       "offset": 511,
       "length": 9,
       "value": "\"#00C877\""
     },
     {
-      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Aiyl\/aiyl-ios-sdk\/Aiyl\/Presentation\/Resources\/Colors.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/aiyl-ios-sdk\/Aiyl\/Presentation\/Resources\/Colors.swift",
       "kind": "StringLiteral",
       "offset": 558,
       "length": 9,
       "value": "\"#D93F0C\""
     },
     {
-      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Aiyl\/aiyl-ios-sdk\/Aiyl\/Presentation\/Resources\/Colors.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/aiyl-ios-sdk\/Aiyl\/Presentation\/Resources\/Colors.swift",
       "kind": "StringLiteral",
       "offset": 605,
       "length": 9,
       "value": "\"#FFFFFF\""
     },
     {
-      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Aiyl\/aiyl-ios-sdk\/Aiyl\/Presentation\/Resources\/Colors.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/aiyl-ios-sdk\/Aiyl\/Presentation\/Resources\/Colors.swift",
       "kind": "IntegerLiteral",
       "offset": 698,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Aiyl\/aiyl-ios-sdk\/Aiyl\/Presentation\/Facemesh detection\/Configurations\/DefaultConstants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 217,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Aiyl\/aiyl-ios-sdk\/Aiyl\/Presentation\/Facemesh detection\/Configurations\/DefaultConstants.swift",
-      "kind": "FloatLiteral",
-      "offset": 268,
-      "length": 3,
-      "value": "0.5"
-    },
-    {
-      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Aiyl\/aiyl-ios-sdk\/Aiyl\/Presentation\/Facemesh detection\/Configurations\/DefaultConstants.swift",
-      "kind": "FloatLiteral",
-      "offset": 320,
-      "length": 3,
-      "value": "0.5"
-    },
-    {
-      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Aiyl\/aiyl-ios-sdk\/Aiyl\/Presentation\/Facemesh detection\/Configurations\/DefaultConstants.swift",
-      "kind": "FloatLiteral",
-      "offset": 368,
-      "length": 3,
-      "value": "0.5"
-    },
-    {
-      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Aiyl\/aiyl-ios-sdk\/Aiyl\/Presentation\/Facemesh detection\/Configurations\/DefaultConstants.swift",
-      "kind": "StringLiteral",
-      "offset": 425,
-      "length": 19,
-      "value": "\"uz.uzinfocom.Aiyl\""
-    },
-    {
-      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Aiyl\/aiyl-ios-sdk\/Aiyl\/Presentation\/Facemesh detection\/Configurations\/DefaultConstants.swift",
-      "kind": "StringLiteral",
-      "offset": 465,
-      "length": 17,
-      "value": "\"face_landmarker\""
-    },
-    {
-      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Aiyl\/aiyl-ios-sdk\/Aiyl\/Presentation\/Facemesh detection\/Configurations\/DefaultConstants.swift",
-      "kind": "StringLiteral",
-      "offset": 492,
-      "length": 6,
-      "value": "\"task\""
-    },
-    {
-      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Aiyl\/aiyl-ios-sdk\/Aiyl\/Capture\/Model\/AiylGraphicFieldType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 154,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Aiyl\/aiyl-ios-sdk\/Aiyl\/Capture\/Model\/AiylGraphicFieldType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 165,
-      "length": 13,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Aiyl\/aiyl-ios-sdk\/Aiyl\/Capture\/Model\/AiylGraphicFieldType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 188,
-      "length": 12,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Aiyl\/aiyl-ios-sdk\/Aiyl\/Presentation\/Facemesh detection\/Configurations\/InferenceConfigurationManager.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/aiyl-ios-sdk\/Aiyl\/Presentation\/Facemesh detection\/Configurations\/InferenceConfigurationManager.swift",
       "kind": "StringLiteral",
       "offset": 1233,
       "length": 45,
       "value": "\"com.google.mediapipe.inferenceConfigChanged\""
     },
     {
-      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Aiyl\/aiyl-ios-sdk\/Aiyl\/Capture\/Core\/AiylOptions.swift",
-      "kind": "FloatLiteral",
-      "offset": 193,
-      "length": 4,
-      "value": "25.0"
-    },
-    {
-      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Aiyl\/aiyl-ios-sdk\/Aiyl\/Capture\/Core\/AiylOptions.swift",
-      "kind": "FloatLiteral",
-      "offset": 228,
-      "length": 4,
-      "value": "30.0"
-    },
-    {
-      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Aiyl\/aiyl-ios-sdk\/Aiyl\/Capture\/Core\/AiylOptions.swift",
-      "kind": "FloatLiteral",
-      "offset": 261,
-      "length": 4,
-      "value": "25.0"
-    },
-    {
-      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Aiyl\/aiyl-ios-sdk\/Aiyl\/Core\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 104,
-      "length": 34,
-      "value": "\"xhYhXuY@q$XzKa2q!w?5Zu#WqVFdZB+v\""
-    },
-    {
-      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Aiyl\/aiyl-ios-sdk\/Aiyl\/Core\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 159,
-      "length": 18,
-      "value": "\"bbC2H19lkVbQDfak\""
-    },
-    {
-      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Aiyl\/aiyl-ios-sdk\/Aiyl\/Capture\/Model\/AiylEntryMode.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/aiyl-ios-sdk\/Aiyl\/Presentation\/Facemesh detection\/Configurations\/DefaultConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 144,
+      "offset": 217,
       "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Aiyl\/aiyl-ios-sdk\/Aiyl\/Capture\/Model\/AiylEntryMode.swift",
-      "kind": "IntegerLiteral",
-      "offset": 155,
-      "length": 17,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Aiyl\/aiyl-ios-sdk\/Aiyl\/Capture\/Model\/AiylEntryMode.swift",
-      "kind": "IntegerLiteral",
-      "offset": 182,
-      "length": 12,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Aiyl\/aiyl-ios-sdk\/Aiyl\/Capture\/Model\/AiylEntryMode.swift",
-      "kind": "IntegerLiteral",
-      "offset": 204,
-      "length": 9,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Aiyl\/aiyl-ios-sdk\/Aiyl\/Presentation\/Facemesh detection\/FacemeshCameraView.swift",
-      "kind": "StringLiteral",
-      "offset": 1504,
-      "length": 20,
-      "value": "\"Video Output Queue\""
-    },
-    {
-      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Aiyl\/aiyl-ios-sdk\/Aiyl\/Presentation\/Facemesh detection\/FacemeshCameraView.swift",
-      "kind": "Array",
-      "offset": 1575,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Aiyl\/aiyl-ios-sdk\/Aiyl\/Presentation\/Facemesh detection\/FacemeshCameraView.swift",
-      "kind": "StringLiteral",
-      "offset": 1699,
-      "length": 24,
-      "value": "\"Image Processing Queue\""
-    },
-    {
-      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Aiyl\/aiyl-ios-sdk\/Aiyl\/Presentation\/Facemesh detection\/FacemeshCameraView.swift",
-      "kind": "Array",
-      "offset": 1774,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Aiyl\/aiyl-ios-sdk\/Aiyl\/Presentation\/Facemesh detection\/FacemeshCameraView.swift",
-      "kind": "StringLiteral",
-      "offset": 1900,
-      "length": 55,
-      "value": "\"com.google.mediapipe.cameraController.backgroundQueue\""
-    },
-    {
-      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Aiyl\/aiyl-ios-sdk\/Aiyl\/Presentation\/Facemesh detection\/FacemeshCameraView.swift",
-      "kind": "StringLiteral",
-      "offset": 2037,
-      "length": 66,
-      "value": "\"com.google.mediapipe.cameraController.faceLandmarkerServiceQueue\""
-    },
-    {
-      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Aiyl\/aiyl-ios-sdk\/Aiyl\/Presentation\/Facemesh detection\/FacemeshCameraView.swift",
-      "kind": "StringLiteral",
-      "offset": 2981,
-      "length": 20,
-      "value": "\"Depth Output Queue\""
-    },
-    {
-      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Aiyl\/aiyl-ios-sdk\/Aiyl\/Presentation\/Facemesh detection\/FacemeshCameraView.swift",
-      "kind": "Array",
-      "offset": 3052,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Aiyl\/aiyl-ios-sdk\/Aiyl\/Presentation\/Facemesh detection\/FacemeshCameraView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3482,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Aiyl\/aiyl-ios-sdk\/Aiyl\/Presentation\/Facemesh detection\/FacemeshCameraView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3523,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Aiyl\/aiyl-ios-sdk\/Aiyl\/Presentation\/Facemesh detection\/FacemeshCameraView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3562,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Aiyl\/aiyl-ios-sdk\/Aiyl\/Presentation\/Facemesh detection\/FacemeshCameraView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3598,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Aiyl\/aiyl-ios-sdk\/Aiyl\/Presentation\/Facemesh detection\/FacemeshCameraView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3646,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Aiyl\/aiyl-ios-sdk\/Aiyl\/Presentation\/Facemesh detection\/FacemeshCameraView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3689,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Aiyl\/aiyl-ios-sdk\/Aiyl\/Presentation\/Facemesh detection\/FacemeshCameraView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3729,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Aiyl\/aiyl-ios-sdk\/Aiyl\/Presentation\/Facemesh detection\/FacemeshCameraView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3757,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Aiyl\/aiyl-ios-sdk\/Aiyl\/Presentation\/Facemesh detection\/FacemeshCameraView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 23621,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Aiyl\/aiyl-ios-sdk\/Aiyl\/Presentation\/Facemesh detection\/FacemeshDetectionScreen.swift",
-      "kind": "StringLiteral",
-      "offset": 558,
-      "length": 24,
-      "value": "\"Image Processing Queue\""
-    },
-    {
-      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Aiyl\/aiyl-ios-sdk\/Aiyl\/Presentation\/Facemesh detection\/FacemeshDetectionScreen.swift",
-      "kind": "Array",
-      "offset": 635,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Aiyl\/aiyl-ios-sdk\/Aiyl\/Presentation\/Facemesh detection\/FacemeshDetectionScreen.swift",
-      "kind": "BooleanLiteral",
-      "offset": 732,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Aiyl\/aiyl-ios-sdk\/Aiyl\/Presentation\/Facemesh detection\/FacemeshDetectionScreen.swift",
-      "kind": "BooleanLiteral",
-      "offset": 772,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Aiyl\/aiyl-ios-sdk\/Aiyl\/Presentation\/Facemesh detection\/FacemeshDetectionScreen.swift",
-      "kind": "BooleanLiteral",
-      "offset": 811,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Aiyl\/aiyl-ios-sdk\/Aiyl\/Presentation\/Facemesh detection\/FacemeshDetectionScreen.swift",
-      "kind": "BooleanLiteral",
-      "offset": 853,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Aiyl\/aiyl-ios-sdk\/Aiyl\/Presentation\/Facemesh detection\/FacemeshDetectionScreen.swift",
-      "kind": "BooleanLiteral",
-      "offset": 895,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Aiyl\/aiyl-ios-sdk\/Aiyl\/Presentation\/Facemesh detection\/FacemeshDetectionScreen.swift",
-      "kind": "BooleanLiteral",
-      "offset": 933,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Aiyl\/aiyl-ios-sdk\/Aiyl\/Presentation\/Facemesh detection\/FacemeshDetectionScreen.swift",
-      "kind": "Array",
-      "offset": 995,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Aiyl\/aiyl-ios-sdk\/Aiyl\/Capture\/Model\/AiylLocale.swift",
-      "kind": "IntegerLiteral",
-      "offset": 134,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Aiyl\/aiyl-ios-sdk\/Aiyl\/Capture\/Model\/AiylLocale.swift",
-      "kind": "IntegerLiteral",
-      "offset": 145,
-      "length": 7,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Aiyl\/aiyl-ios-sdk\/Aiyl\/Capture\/Model\/AiylLocale.swift",
-      "kind": "IntegerLiteral",
-      "offset": 162,
-      "length": 7,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Aiyl\/aiyl-ios-sdk\/Aiyl\/Presentation\/Document detection\/DocumentDetectionScreen.swift",
-      "kind": "IntegerLiteral",
-      "offset": 186,
-      "length": 4,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Aiyl\/aiyl-ios-sdk\/Aiyl\/Presentation\/Document detection\/DocumentDetectionScreen.swift",
-      "kind": "IntegerLiteral",
-      "offset": 200,
-      "length": 6,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Aiyl\/aiyl-ios-sdk\/Aiyl\/Presentation\/Document detection\/DocumentDetectionScreen.swift",
-      "kind": "StringLiteral",
-      "offset": 576,
-      "length": 20,
-      "value": "\"Video Output Queue\""
-    },
-    {
-      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Aiyl\/aiyl-ios-sdk\/Aiyl\/Presentation\/Document detection\/DocumentDetectionScreen.swift",
-      "kind": "Array",
-      "offset": 647,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Aiyl\/aiyl-ios-sdk\/Aiyl\/Presentation\/Document detection\/DocumentDetectionScreen.swift",
-      "kind": "StringLiteral",
-      "offset": 771,
-      "length": 24,
-      "value": "\"Image Processing Queue\""
-    },
-    {
-      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Aiyl\/aiyl-ios-sdk\/Aiyl\/Presentation\/Document detection\/DocumentDetectionScreen.swift",
-      "kind": "Array",
-      "offset": 846,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Aiyl\/aiyl-ios-sdk\/Aiyl\/Presentation\/Document detection\/DocumentDetectionScreen.swift",
-      "kind": "StringLiteral",
-      "offset": 1289,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Aiyl\/aiyl-ios-sdk\/Aiyl\/Presentation\/Document detection\/DocumentDetectionScreen.swift",
-      "kind": "StringLiteral",
-      "offset": 1325,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Aiyl\/aiyl-ios-sdk\/Aiyl\/Presentation\/Document detection\/DocumentDetectionScreen.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1360,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Aiyl\/aiyl-ios-sdk\/Aiyl\/Presentation\/Document detection\/DocumentDetectionScreen.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1397,
-      "length": 1,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Aiyl\/aiyl-ios-sdk\/Aiyl\/Presentation\/Document detection\/DocumentDetectionScreen.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1432,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Aiyl\/aiyl-ios-sdk\/Aiyl\/Core\/MRZParser\/MRZField\/MRZFieldFormatter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 204,
+      "filePath": "\/Users\/javokhir\/Downloads\/aiyl-ios-sdk\/Aiyl\/Presentation\/Facemesh detection\/Configurations\/DefaultConstants.swift",
+      "kind": "FloatLiteral",
+      "offset": 268,
       "length": 3,
-      "value": "100"
+      "value": "0.5"
     },
     {
-      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Aiyl\/aiyl-ios-sdk\/Aiyl\/Core\/MRZParser\/MRZField\/MRZFieldFormatter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 269,
-      "length": 1,
-      "value": "1"
+      "filePath": "\/Users\/javokhir\/Downloads\/aiyl-ios-sdk\/Aiyl\/Presentation\/Facemesh detection\/Configurations\/DefaultConstants.swift",
+      "kind": "FloatLiteral",
+      "offset": 320,
+      "length": 3,
+      "value": "0.5"
     },
     {
-      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Aiyl\/aiyl-ios-sdk\/Aiyl\/Core\/MRZParser\/MRZField\/MRZFieldFormatter.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/aiyl-ios-sdk\/Aiyl\/Presentation\/Facemesh detection\/Configurations\/DefaultConstants.swift",
+      "kind": "FloatLiteral",
+      "offset": 368,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/Downloads\/aiyl-ios-sdk\/Aiyl\/Presentation\/Facemesh detection\/Configurations\/DefaultConstants.swift",
       "kind": "StringLiteral",
-      "offset": 459,
-      "length": 10,
-      "value": "\"yyyyMMdd\""
+      "offset": 425,
+      "length": 19,
+      "value": "\"uz.uzinfocom.Aiyl\""
     },
     {
-      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Aiyl\/aiyl-ios-sdk\/Aiyl\/Core\/MRZParser\/MRZField\/MRZFieldFormatter.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/aiyl-ios-sdk\/Aiyl\/Presentation\/Facemesh detection\/Configurations\/DefaultConstants.swift",
       "kind": "StringLiteral",
-      "offset": 516,
-      "length": 13,
-      "value": "\"en_US_POSIX\""
+      "offset": 465,
+      "length": 17,
+      "value": "\"face_landmarker\""
     },
     {
-      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Aiyl\/aiyl-ios-sdk\/Aiyl\/Core\/MRZParser\/MRZField\/MRZFieldFormatter.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/aiyl-ios-sdk\/Aiyl\/Presentation\/Facemesh detection\/Configurations\/DefaultConstants.swift",
       "kind": "StringLiteral",
-      "offset": 583,
-      "length": 10,
-      "value": "\"GMT+0:00\""
+      "offset": 492,
+      "length": 6,
+      "value": "\"task\""
     },
     {
-      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Aiyl\/aiyl-ios-sdk\/Aiyl\/Core\/MRZParser\/MRZField\/MRZFieldFormatter.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2601,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Aiyl\/aiyl-ios-sdk\/Aiyl\/Presentation\/Segment detection\/SegmentDetectionScreen.swift",
-      "kind": "StringLiteral",
-      "offset": 502,
-      "length": 20,
-      "value": "\"Video Output Queue\""
-    },
-    {
-      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Aiyl\/aiyl-ios-sdk\/Aiyl\/Presentation\/Segment detection\/SegmentDetectionScreen.swift",
-      "kind": "Array",
-      "offset": 573,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Aiyl\/aiyl-ios-sdk\/Aiyl\/Presentation\/Segment detection\/SegmentDetectionScreen.swift",
-      "kind": "StringLiteral",
-      "offset": 697,
-      "length": 24,
-      "value": "\"Image Processing Queue\""
-    },
-    {
-      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Aiyl\/aiyl-ios-sdk\/Aiyl\/Presentation\/Segment detection\/SegmentDetectionScreen.swift",
-      "kind": "Array",
-      "offset": 772,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Aiyl\/aiyl-ios-sdk\/Aiyl\/Presentation\/Segment detection\/SegmentDetectionScreen.swift",
-      "kind": "BooleanLiteral",
-      "offset": 951,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Aiyl\/aiyl-ios-sdk\/Aiyl\/Presentation\/Segment detection\/SegmentDetectionScreen.swift",
-      "kind": "BooleanLiteral",
-      "offset": 991,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Aiyl\/aiyl-ios-sdk\/Aiyl\/Presentation\/Segment detection\/SegmentDetectionScreen.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1033,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Aiyl\/aiyl-ios-sdk\/Aiyl\/Presentation\/Segment detection\/SegmentDetectionScreen.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1070,
-      "length": 1,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Aiyl\/aiyl-ios-sdk\/Aiyl\/Capture\/Model\/AiylPresentationStyle.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/aiyl-ios-sdk\/Aiyl\/Capture\/Model\/AiylGraphicFieldType.swift",
       "kind": "IntegerLiteral",
       "offset": 154,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Aiyl\/aiyl-ios-sdk\/Aiyl\/Capture\/Model\/AiylPresentationStyle.swift",
+      "filePath": "\/Users\/javokhir\/Downloads\/aiyl-ios-sdk\/Aiyl\/Capture\/Model\/AiylGraphicFieldType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 165,
+      "length": 13,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/Downloads\/aiyl-ios-sdk\/Aiyl\/Capture\/Model\/AiylGraphicFieldType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 188,
+      "length": 12,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/Downloads\/aiyl-ios-sdk\/Aiyl\/Capture\/Core\/AiylOptions.swift",
+      "kind": "FloatLiteral",
+      "offset": 193,
+      "length": 4,
+      "value": "25.0"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/Downloads\/aiyl-ios-sdk\/Aiyl\/Capture\/Core\/AiylOptions.swift",
+      "kind": "FloatLiteral",
+      "offset": 228,
+      "length": 4,
+      "value": "30.0"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/Downloads\/aiyl-ios-sdk\/Aiyl\/Capture\/Core\/AiylOptions.swift",
+      "kind": "FloatLiteral",
+      "offset": 261,
+      "length": 4,
+      "value": "25.0"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/Downloads\/aiyl-ios-sdk\/Aiyl\/Capture\/Core\/AiylOptions.swift",
+      "kind": "BooleanLiteral",
+      "offset": 467,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/Downloads\/aiyl-ios-sdk\/Aiyl\/Core\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 104,
+      "length": 34,
+      "value": "\"xhYhXuY@q$XzKa2q!w?5Zu#WqVFdZB+v\""
+    },
+    {
+      "filePath": "\/Users\/javokhir\/Downloads\/aiyl-ios-sdk\/Aiyl\/Core\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 159,
+      "length": 18,
+      "value": "\"bbC2H19lkVbQDfak\""
+    },
+    {
+      "filePath": "\/Users\/javokhir\/Downloads\/aiyl-ios-sdk\/Aiyl\/Capture\/Model\/AiylEntryMode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 144,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/Downloads\/aiyl-ios-sdk\/Aiyl\/Capture\/Model\/AiylEntryMode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 155,
+      "length": 17,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/Downloads\/aiyl-ios-sdk\/Aiyl\/Capture\/Model\/AiylEntryMode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 182,
+      "length": 12,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/Downloads\/aiyl-ios-sdk\/Aiyl\/Capture\/Model\/AiylEntryMode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 204,
+      "length": 9,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/Downloads\/aiyl-ios-sdk\/Aiyl\/Presentation\/Facemesh detection\/FacemeshCameraView.swift",
+      "kind": "StringLiteral",
+      "offset": 1504,
+      "length": 20,
+      "value": "\"Video Output Queue\""
+    },
+    {
+      "filePath": "\/Users\/javokhir\/Downloads\/aiyl-ios-sdk\/Aiyl\/Presentation\/Facemesh detection\/FacemeshCameraView.swift",
+      "kind": "Array",
+      "offset": 1575,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/Downloads\/aiyl-ios-sdk\/Aiyl\/Presentation\/Facemesh detection\/FacemeshCameraView.swift",
+      "kind": "StringLiteral",
+      "offset": 1699,
+      "length": 24,
+      "value": "\"Image Processing Queue\""
+    },
+    {
+      "filePath": "\/Users\/javokhir\/Downloads\/aiyl-ios-sdk\/Aiyl\/Presentation\/Facemesh detection\/FacemeshCameraView.swift",
+      "kind": "Array",
+      "offset": 1774,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/Downloads\/aiyl-ios-sdk\/Aiyl\/Presentation\/Facemesh detection\/FacemeshCameraView.swift",
+      "kind": "StringLiteral",
+      "offset": 1900,
+      "length": 55,
+      "value": "\"com.google.mediapipe.cameraController.backgroundQueue\""
+    },
+    {
+      "filePath": "\/Users\/javokhir\/Downloads\/aiyl-ios-sdk\/Aiyl\/Presentation\/Facemesh detection\/FacemeshCameraView.swift",
+      "kind": "StringLiteral",
+      "offset": 2037,
+      "length": 66,
+      "value": "\"com.google.mediapipe.cameraController.faceLandmarkerServiceQueue\""
+    },
+    {
+      "filePath": "\/Users\/javokhir\/Downloads\/aiyl-ios-sdk\/Aiyl\/Presentation\/Facemesh detection\/FacemeshCameraView.swift",
+      "kind": "StringLiteral",
+      "offset": 2981,
+      "length": 20,
+      "value": "\"Depth Output Queue\""
+    },
+    {
+      "filePath": "\/Users\/javokhir\/Downloads\/aiyl-ios-sdk\/Aiyl\/Presentation\/Facemesh detection\/FacemeshCameraView.swift",
+      "kind": "Array",
+      "offset": 3052,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/Downloads\/aiyl-ios-sdk\/Aiyl\/Presentation\/Facemesh detection\/FacemeshCameraView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3482,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/Downloads\/aiyl-ios-sdk\/Aiyl\/Presentation\/Facemesh detection\/FacemeshCameraView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3523,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/Downloads\/aiyl-ios-sdk\/Aiyl\/Presentation\/Facemesh detection\/FacemeshCameraView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3562,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/Downloads\/aiyl-ios-sdk\/Aiyl\/Presentation\/Facemesh detection\/FacemeshCameraView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3598,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/Downloads\/aiyl-ios-sdk\/Aiyl\/Presentation\/Facemesh detection\/FacemeshCameraView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3646,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/Downloads\/aiyl-ios-sdk\/Aiyl\/Presentation\/Facemesh detection\/FacemeshCameraView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3689,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/Downloads\/aiyl-ios-sdk\/Aiyl\/Presentation\/Facemesh detection\/FacemeshCameraView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3729,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/Downloads\/aiyl-ios-sdk\/Aiyl\/Presentation\/Facemesh detection\/FacemeshCameraView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3757,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/Downloads\/aiyl-ios-sdk\/Aiyl\/Presentation\/Facemesh detection\/FacemeshCameraView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 23621,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/Downloads\/aiyl-ios-sdk\/Aiyl\/Presentation\/Facemesh detection\/FacemeshDetectionScreen.swift",
+      "kind": "StringLiteral",
+      "offset": 577,
+      "length": 24,
+      "value": "\"Image Processing Queue\""
+    },
+    {
+      "filePath": "\/Users\/javokhir\/Downloads\/aiyl-ios-sdk\/Aiyl\/Presentation\/Facemesh detection\/FacemeshDetectionScreen.swift",
+      "kind": "Array",
+      "offset": 654,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/Downloads\/aiyl-ios-sdk\/Aiyl\/Presentation\/Facemesh detection\/FacemeshDetectionScreen.swift",
+      "kind": "BooleanLiteral",
+      "offset": 751,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/Downloads\/aiyl-ios-sdk\/Aiyl\/Presentation\/Facemesh detection\/FacemeshDetectionScreen.swift",
+      "kind": "BooleanLiteral",
+      "offset": 791,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/Downloads\/aiyl-ios-sdk\/Aiyl\/Presentation\/Facemesh detection\/FacemeshDetectionScreen.swift",
+      "kind": "BooleanLiteral",
+      "offset": 830,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/Downloads\/aiyl-ios-sdk\/Aiyl\/Presentation\/Facemesh detection\/FacemeshDetectionScreen.swift",
+      "kind": "BooleanLiteral",
+      "offset": 872,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/Downloads\/aiyl-ios-sdk\/Aiyl\/Presentation\/Facemesh detection\/FacemeshDetectionScreen.swift",
+      "kind": "BooleanLiteral",
+      "offset": 914,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/Downloads\/aiyl-ios-sdk\/Aiyl\/Presentation\/Facemesh detection\/FacemeshDetectionScreen.swift",
+      "kind": "BooleanLiteral",
+      "offset": 952,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/Downloads\/aiyl-ios-sdk\/Aiyl\/Presentation\/Facemesh detection\/FacemeshDetectionScreen.swift",
+      "kind": "Array",
+      "offset": 1014,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/Downloads\/aiyl-ios-sdk\/Aiyl\/Capture\/Model\/AiylLocale.swift",
+      "kind": "IntegerLiteral",
+      "offset": 134,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/Downloads\/aiyl-ios-sdk\/Aiyl\/Capture\/Model\/AiylLocale.swift",
+      "kind": "IntegerLiteral",
+      "offset": 145,
+      "length": 7,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/Downloads\/aiyl-ios-sdk\/Aiyl\/Capture\/Model\/AiylLocale.swift",
+      "kind": "IntegerLiteral",
+      "offset": 162,
+      "length": 7,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/Downloads\/aiyl-ios-sdk\/Aiyl\/Presentation\/Document detection\/DocumentDetectionScreen.swift",
+      "kind": "IntegerLiteral",
+      "offset": 186,
+      "length": 4,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/Downloads\/aiyl-ios-sdk\/Aiyl\/Presentation\/Document detection\/DocumentDetectionScreen.swift",
+      "kind": "IntegerLiteral",
+      "offset": 200,
+      "length": 6,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/Downloads\/aiyl-ios-sdk\/Aiyl\/Presentation\/Document detection\/DocumentDetectionScreen.swift",
+      "kind": "StringLiteral",
+      "offset": 576,
+      "length": 20,
+      "value": "\"Video Output Queue\""
+    },
+    {
+      "filePath": "\/Users\/javokhir\/Downloads\/aiyl-ios-sdk\/Aiyl\/Presentation\/Document detection\/DocumentDetectionScreen.swift",
+      "kind": "Array",
+      "offset": 647,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/Downloads\/aiyl-ios-sdk\/Aiyl\/Presentation\/Document detection\/DocumentDetectionScreen.swift",
+      "kind": "StringLiteral",
+      "offset": 771,
+      "length": 24,
+      "value": "\"Image Processing Queue\""
+    },
+    {
+      "filePath": "\/Users\/javokhir\/Downloads\/aiyl-ios-sdk\/Aiyl\/Presentation\/Document detection\/DocumentDetectionScreen.swift",
+      "kind": "Array",
+      "offset": 846,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/Downloads\/aiyl-ios-sdk\/Aiyl\/Presentation\/Document detection\/DocumentDetectionScreen.swift",
+      "kind": "StringLiteral",
+      "offset": 1289,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/javokhir\/Downloads\/aiyl-ios-sdk\/Aiyl\/Presentation\/Document detection\/DocumentDetectionScreen.swift",
+      "kind": "StringLiteral",
+      "offset": 1325,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/javokhir\/Downloads\/aiyl-ios-sdk\/Aiyl\/Presentation\/Document detection\/DocumentDetectionScreen.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1360,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/Downloads\/aiyl-ios-sdk\/Aiyl\/Presentation\/Document detection\/DocumentDetectionScreen.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1397,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/Downloads\/aiyl-ios-sdk\/Aiyl\/Presentation\/Document detection\/DocumentDetectionScreen.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1432,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/Downloads\/aiyl-ios-sdk\/Aiyl\/Core\/MRZParser\/MRZField\/MRZFieldFormatter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 204,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/Downloads\/aiyl-ios-sdk\/Aiyl\/Core\/MRZParser\/MRZField\/MRZFieldFormatter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 269,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/Downloads\/aiyl-ios-sdk\/Aiyl\/Core\/MRZParser\/MRZField\/MRZFieldFormatter.swift",
+      "kind": "StringLiteral",
+      "offset": 459,
+      "length": 10,
+      "value": "\"yyyyMMdd\""
+    },
+    {
+      "filePath": "\/Users\/javokhir\/Downloads\/aiyl-ios-sdk\/Aiyl\/Core\/MRZParser\/MRZField\/MRZFieldFormatter.swift",
+      "kind": "StringLiteral",
+      "offset": 516,
+      "length": 13,
+      "value": "\"en_US_POSIX\""
+    },
+    {
+      "filePath": "\/Users\/javokhir\/Downloads\/aiyl-ios-sdk\/Aiyl\/Core\/MRZParser\/MRZField\/MRZFieldFormatter.swift",
+      "kind": "StringLiteral",
+      "offset": 583,
+      "length": 10,
+      "value": "\"GMT+0:00\""
+    },
+    {
+      "filePath": "\/Users\/javokhir\/Downloads\/aiyl-ios-sdk\/Aiyl\/Core\/MRZParser\/MRZField\/MRZFieldFormatter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2601,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/Downloads\/aiyl-ios-sdk\/Aiyl\/Presentation\/Segment detection\/SegmentDetectionScreen.swift",
+      "kind": "StringLiteral",
+      "offset": 502,
+      "length": 20,
+      "value": "\"Video Output Queue\""
+    },
+    {
+      "filePath": "\/Users\/javokhir\/Downloads\/aiyl-ios-sdk\/Aiyl\/Presentation\/Segment detection\/SegmentDetectionScreen.swift",
+      "kind": "Array",
+      "offset": 573,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/Downloads\/aiyl-ios-sdk\/Aiyl\/Presentation\/Segment detection\/SegmentDetectionScreen.swift",
+      "kind": "StringLiteral",
+      "offset": 697,
+      "length": 24,
+      "value": "\"Image Processing Queue\""
+    },
+    {
+      "filePath": "\/Users\/javokhir\/Downloads\/aiyl-ios-sdk\/Aiyl\/Presentation\/Segment detection\/SegmentDetectionScreen.swift",
+      "kind": "Array",
+      "offset": 772,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/Downloads\/aiyl-ios-sdk\/Aiyl\/Presentation\/Segment detection\/SegmentDetectionScreen.swift",
+      "kind": "BooleanLiteral",
+      "offset": 951,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/Downloads\/aiyl-ios-sdk\/Aiyl\/Presentation\/Segment detection\/SegmentDetectionScreen.swift",
+      "kind": "BooleanLiteral",
+      "offset": 991,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/Downloads\/aiyl-ios-sdk\/Aiyl\/Presentation\/Segment detection\/SegmentDetectionScreen.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1033,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/Downloads\/aiyl-ios-sdk\/Aiyl\/Presentation\/Segment detection\/SegmentDetectionScreen.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1070,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/Downloads\/aiyl-ios-sdk\/Aiyl\/Capture\/AiylConfig.swift",
+      "kind": "BooleanLiteral",
+      "offset": 427,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/Downloads\/aiyl-ios-sdk\/Aiyl\/Capture\/Model\/AiylPresentationStyle.swift",
+      "kind": "IntegerLiteral",
+      "offset": 154,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/javokhir\/Downloads\/aiyl-ios-sdk\/Aiyl\/Capture\/Model\/AiylPresentationStyle.swift",
       "kind": "IntegerLiteral",
       "offset": 165,
       "length": 5,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/javokhir\/Library\/Developer\/Xcode\/DerivedData\/Aiyl-gwlfbwvrtawyfqbaadbjsxirqsyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Aiyl\/IntermediateBuildFilesPath\/Aiyl.build\/Release-iphoneos\/Aiyl.build\/DerivedSources\/CoreMLGenerated\/aiyl_license\/aiyl_license.swift",
+      "filePath": "\/Users\/javokhir\/Library\/Developer\/Xcode\/DerivedData\/Aiyl-baeoamblzwioptdmwjcscnrnyqan\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Aiyl\/IntermediateBuildFilesPath\/Aiyl.build\/Release-iphoneos\/Aiyl.build\/DerivedSources\/CoreMLGenerated\/aiyl_license\/aiyl_license.swift",
       "kind": "Array",
       "offset": 662,
       "length": 48,
       "value": "[\"image\", \"iouThreshold\", \"confidenceThreshold\"]"
     },
     {
-      "filePath": "\/Users\/javokhir\/Library\/Developer\/Xcode\/DerivedData\/Aiyl-gwlfbwvrtawyfqbaadbjsxirqsyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Aiyl\/IntermediateBuildFilesPath\/Aiyl.build\/Release-iphoneos\/Aiyl.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/javokhir\/Library\/Developer\/Xcode\/DerivedData\/Aiyl-baeoamblzwioptdmwjcscnrnyqan\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Aiyl\/IntermediateBuildFilesPath\/Aiyl.build\/Release-iphoneos\/Aiyl.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 754,
       "length": 24,
       "value": "\"aiyl_icon_check_filled\""
     },
     {
-      "filePath": "\/Users\/javokhir\/Library\/Developer\/Xcode\/DerivedData\/Aiyl-gwlfbwvrtawyfqbaadbjsxirqsyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Aiyl\/IntermediateBuildFilesPath\/Aiyl.build\/Release-iphoneos\/Aiyl.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/javokhir\/Library\/Developer\/Xcode\/DerivedData\/Aiyl-baeoamblzwioptdmwjcscnrnyqan\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Aiyl\/IntermediateBuildFilesPath\/Aiyl.build\/Release-iphoneos\/Aiyl.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 914,
       "length": 16,
       "value": "\"aiyl_icon_scan\""
     },
     {
-      "filePath": "\/Users\/javokhir\/Library\/Developer\/Xcode\/DerivedData\/Aiyl-gwlfbwvrtawyfqbaadbjsxirqsyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Aiyl\/IntermediateBuildFilesPath\/Aiyl.build\/Release-iphoneos\/Aiyl.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/javokhir\/Library\/Developer\/Xcode\/DerivedData\/Aiyl-baeoamblzwioptdmwjcscnrnyqan\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Aiyl\/IntermediateBuildFilesPath\/Aiyl.build\/Release-iphoneos\/Aiyl.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1068,
       "length": 17,
       "value": "\"aiyl_shape_face\""
     },
     {
-      "filePath": "\/Users\/javokhir\/Library\/Developer\/Xcode\/DerivedData\/Aiyl-gwlfbwvrtawyfqbaadbjsxirqsyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Aiyl\/IntermediateBuildFilesPath\/Aiyl.build\/Release-iphoneos\/Aiyl.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/javokhir\/Library\/Developer\/Xcode\/DerivedData\/Aiyl-baeoamblzwioptdmwjcscnrnyqan\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Aiyl\/IntermediateBuildFilesPath\/Aiyl.build\/Release-iphoneos\/Aiyl.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1240,
       "length": 26,
       "value": "\"aiyl_shape_face_detected\""
     },
     {
-      "filePath": "\/Users\/javokhir\/Library\/Developer\/Xcode\/DerivedData\/Aiyl-gwlfbwvrtawyfqbaadbjsxirqsyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Aiyl\/IntermediateBuildFilesPath\/Aiyl.build\/Release-iphoneos\/Aiyl.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/javokhir\/Library\/Developer\/Xcode\/DerivedData\/Aiyl-baeoamblzwioptdmwjcscnrnyqan\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Aiyl\/IntermediateBuildFilesPath\/Aiyl.build\/Release-iphoneos\/Aiyl.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1402,
       "length": 16,
       "value": "\"aiyl_shape_mrz\""
     },
     {
-      "filePath": "\/Users\/javokhir\/Library\/Developer\/Xcode\/DerivedData\/Aiyl-gwlfbwvrtawyfqbaadbjsxirqsyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Aiyl\/IntermediateBuildFilesPath\/Aiyl.build\/Release-iphoneos\/Aiyl.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/javokhir\/Library\/Developer\/Xcode\/DerivedData\/Aiyl-baeoamblzwioptdmwjcscnrnyqan\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Aiyl\/IntermediateBuildFilesPath\/Aiyl.build\/Release-iphoneos\/Aiyl.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1571,
       "length": 25,
       "value": "\"aiyl_shape_mrz_detected\""
     },
     {
-      "filePath": "\/Users\/javokhir\/Library\/Developer\/Xcode\/DerivedData\/Aiyl-gwlfbwvrtawyfqbaadbjsxirqsyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Aiyl\/IntermediateBuildFilesPath\/Aiyl.build\/Release-iphoneos\/Aiyl.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/javokhir\/Library\/Developer\/Xcode\/DerivedData\/Aiyl-baeoamblzwioptdmwjcscnrnyqan\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Aiyl\/IntermediateBuildFilesPath\/Aiyl.build\/Release-iphoneos\/Aiyl.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1740,
       "length": 20,
       "value": "\"aiyl_shape_segment\""
     },
     {
-      "filePath": "\/Users\/javokhir\/Library\/Developer\/Xcode\/DerivedData\/Aiyl-gwlfbwvrtawyfqbaadbjsxirqsyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Aiyl\/IntermediateBuildFilesPath\/Aiyl.build\/Release-iphoneos\/Aiyl.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/javokhir\/Library\/Developer\/Xcode\/DerivedData\/Aiyl-baeoamblzwioptdmwjcscnrnyqan\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Aiyl\/IntermediateBuildFilesPath\/Aiyl.build\/Release-iphoneos\/Aiyl.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1913,
       "length": 25,
       "value": "\"aiyl_shape_segment_full\""
     },
     {
-      "filePath": "\/Users\/javokhir\/Library\/Developer\/Xcode\/DerivedData\/Aiyl-gwlfbwvrtawyfqbaadbjsxirqsyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Aiyl\/IntermediateBuildFilesPath\/Aiyl.build\/Release-iphoneos\/Aiyl.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/javokhir\/Library\/Developer\/Xcode\/DerivedData\/Aiyl-baeoamblzwioptdmwjcscnrnyqan\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Aiyl\/IntermediateBuildFilesPath\/Aiyl.build\/Release-iphoneos\/Aiyl.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 2074,
       "length": 16,

@@ -377,6 +377,7 @@ SWIFT_CLASS("_TtC4Aiyl10AiylConfig")
 @property (nonatomic) enum AiylEntryMode entryMode;
 @property (nonatomic) enum AiylPresentationStyle presentationStyle;
 @property (nonatomic, strong) AiylAppearance * _Nullable appearance;
+@property (nonatomic) BOOL withSound;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
