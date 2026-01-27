@@ -310,8 +310,8 @@ SWIFT_CLASS("_TtC4Aiyl14AiylAppearance")
 @interface AiylAppearance : NSObject
 @property (nonatomic, strong) UIColor * _Nullable colorPrimary;
 @property (nonatomic, strong) UIColor * _Nullable colorOnPrimary;
-@property (nonatomic, strong) UIColor * _Nullable colorBackground;
-@property (nonatomic, strong) UIColor * _Nullable colorOnBackground;
+@property (nonatomic, strong) UIColor * _Nullable colorNavigationBarBackground;
+@property (nonatomic, strong) UIColor * _Nullable colorNavigationBarForeground;
 @property (nonatomic, strong) UIColor * _Nullable colorOutline;
 @property (nonatomic, strong) UIColor * _Nullable colorDivider;
 @property (nonatomic, strong) UIColor * _Nullable colorProgressIndicatorActive;

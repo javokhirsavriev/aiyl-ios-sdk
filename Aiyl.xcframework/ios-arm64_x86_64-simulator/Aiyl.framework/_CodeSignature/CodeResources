@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/Aiyl-Swift.h</key>
 		<data>
-		aH2oQUZuBMQEvQIYxoyGj0Uqxmg=
+		2rfCp4+RAKbjg80qoPOdnsErxWU=
 		</data>
 		<key>Headers/Aiyl.h</key>
 		<data>
@@ -18,15 +18,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		S/bXzNV6FBFkjMfdFOgJi3YMneo=
+		JRyPaF+Rlmwj8q+DDTTyybXHCEk=
 		</data>
 		<key>Modules/Aiyl.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		zq7pQIt8XSGmHLt8SKr4ptqEia4=
+		uViCRornwkPQHH5K/Cy4g1XzNho=
 		</data>
 		<key>Modules/Aiyl.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		Xja3WjiE9kkUktfa95+vwy6y9hw=
+		SJ+UBn0qsF1MJqvjyG4HtVXT8YM=
 		</data>
 		<key>Modules/Aiyl.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -34,19 +34,19 @@
 		</data>
 		<key>Modules/Aiyl.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		Xja3WjiE9kkUktfa95+vwy6y9hw=
+		SJ+UBn0qsF1MJqvjyG4HtVXT8YM=
 		</data>
 		<key>Modules/Aiyl.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		iG6C2Y+1PEBLBN6U+TwV/fI85+4=
+		P7sFksE9kdS4yVy+tUclMobWy84=
 		</data>
 		<key>Modules/Aiyl.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		zq7pQIt8XSGmHLt8SKr4ptqEia4=
+		uViCRornwkPQHH5K/Cy4g1XzNho=
 		</data>
 		<key>Modules/Aiyl.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		kxlDtaXoXyC8xFsD2/PTCgEtdiw=
+		15fNMvxGLor6aX5bdtfdUf7XH3I=
 		</data>
 		<key>Modules/Aiyl.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -54,11 +54,11 @@
 		</data>
 		<key>Modules/Aiyl.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		kxlDtaXoXyC8xFsD2/PTCgEtdiw=
+		15fNMvxGLor6aX5bdtfdUf7XH3I=
 		</data>
 		<key>Modules/Aiyl.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		KYWEJHUblnwsrHt7iTQawcn+nB4=
+		s/gVrCe++ro56BHnxkg3O1pO/bE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -72,6 +72,10 @@
 		<data>
 		Aqs+vNyjY9pJ25NNDilXKupD/nE=
 		</data>
+		<key>common_face_in_oval_ky.mp3</key>
+		<data>
+		aCll/fJHH8pfrN5QdULH9cHpml0=
+		</data>
 		<key>common_face_in_oval_ru.caf</key>
 		<data>
 		bBmi/lkE+IvBJUIQFCPn0t/cPew=
@@ -79,6 +83,10 @@
 		<key>common_get_closer_en.caf</key>
 		<data>
 		Rvb5LxNkcRFSld/FQG0FKASRZz4=
+		</data>
+		<key>common_get_closer_ky.mp3</key>
+		<data>
+		AntxE3K1Joy5S42g8OmNh68Jmjc=
 		</data>
 		<key>common_get_closer_ru.caf</key>
 		<data>
@@ -90,11 +98,11 @@
 		</data>
 		<key>common_license.mlmodelc/coremldata.bin</key>
 		<data>
-		Z4r4oz6gaOaL+nFlEJYE3zcMdDY=
+		Qr2Ks6Gn09D5JivVcTEa3xECMhg=
 		</data>
 		<key>common_license.mlmodelc/metadata.json</key>
 		<data>
-		ZQ2oURyjwWFvP8tgRHKWn3ASa+U=
+		rdG0+hCuLU6LZx+uL7UMnVBXMRo=
 		</data>
 		<key>common_license.mlmodelc/model0/analytics/coremldata.bin</key>
 		<data>
@@ -102,7 +110,7 @@
 		</data>
 		<key>common_license.mlmodelc/model0/coremldata.bin</key>
 		<data>
-		xIzKEqdN/pvg/+trL4TCIVAOO8Y=
+		/69kiYS/LHPcy47tLGBKR9j7doY=
 		</data>
 		<key>common_license.mlmodelc/model0/model.mil</key>
 		<data>
@@ -119,6 +127,10 @@
 		<key>common_move_away_en.caf</key>
 		<data>
 		LVr+04+eUBawwdKMct00BD3AkhE=
+		</data>
+		<key>common_move_away_ky.mp3</key>
+		<data>
+		2Kxx3Gkm6bNIbqFjXfhcgwcWO2Y=
 		</data>
 		<key>common_move_away_ru.caf</key>
 		<data>
@@ -142,7 +154,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			NDylaYCzGpNJAzyCWhRoCmiQ5xNjrbBt4K7Om97rCbw=
+			F5XRFLXRM7lE2CgVF5VUVCn4K5JlDm/0Q3C6faKjfvY=
 			</data>
 		</dict>
 		<key>Headers/Aiyl.h</key>
@@ -156,14 +168,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			VcugjCnuDwij2RvqMon8prbY0RnfvhfItgCrQvoCvDM=
+			LEOcfy/MmfeJzAV/I9lSwtLz13Ab9Bcybst8QVaUnyw=
 			</data>
 		</dict>
 		<key>Modules/Aiyl.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wCVhVomIR5qYXH9e8gnskuKEZuqb+xTjvE/eTqnqraU=
+			NoeMvMlgWTC9eawTXa+24R9r9KQ2x6deCZ4WD4bNMa4=
 			</data>
 		</dict>
 		<key>Modules/Aiyl.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -177,28 +189,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			wCVhVomIR5qYXH9e8gnskuKEZuqb+xTjvE/eTqnqraU=
+			NoeMvMlgWTC9eawTXa+24R9r9KQ2x6deCZ4WD4bNMa4=
 			</data>
 		</dict>
 		<key>Modules/Aiyl.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			TQpiSWksEu067OGvq6brRG5oZf0/Eez2reyn/Nu8IlU=
+			1j0tzawwGVYFCXwIFrfcDxN3fdSl6RB+nqfi8IwLWJw=
 			</data>
 		</dict>
 		<key>Modules/Aiyl.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VcugjCnuDwij2RvqMon8prbY0RnfvhfItgCrQvoCvDM=
+			LEOcfy/MmfeJzAV/I9lSwtLz13Ab9Bcybst8QVaUnyw=
 			</data>
 		</dict>
 		<key>Modules/Aiyl.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JxHEtiKdmQoLq4cnuxLo40rDhKg3SoVASgQOeg4RprM=
+			fYmgJsJ0kRbAiaWZVVZYbWldCe3kCD3va4CoXI668PA=
 			</data>
 		</dict>
 		<key>Modules/Aiyl.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -212,14 +224,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			JxHEtiKdmQoLq4cnuxLo40rDhKg3SoVASgQOeg4RprM=
+			fYmgJsJ0kRbAiaWZVVZYbWldCe3kCD3va4CoXI668PA=
 			</data>
 		</dict>
 		<key>Modules/Aiyl.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7R4MRfowbP0sQWLLGyvWBGGt71CKfu+6s7h/SFLwjHc=
+			kKbaE2D4eQ1yK+PmVSHSLXQuRPEE5/Rg5FWvcjrGST0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -243,6 +255,13 @@
 			6a71+a8FsNNGcfr2dDQvKV1/2MH4NpR+ZYq8xG2pEsI=
 			</data>
 		</dict>
+		<key>common_face_in_oval_ky.mp3</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			f/NvtretMHrubKbVnwLUE537LIxMXPCYmuf4gmYo/EY=
+			</data>
+		</dict>
 		<key>common_face_in_oval_ru.caf</key>
 		<dict>
 			<key>hash2</key>
@@ -255,6 +274,13 @@
 			<key>hash2</key>
 			<data>
 			6HUo82OoVcnBC82jgDUUePoCzDt3Y5UWr6ylvyNplHU=
+			</data>
+		</dict>
+		<key>common_get_closer_ky.mp3</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			FAE/o6vrf/DGdjbZxLYdSxhcVbypsVqlhl7u4rn4j6Y=
 			</data>
 		</dict>
 		<key>common_get_closer_ru.caf</key>
@@ -275,14 +301,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			BcTiOspwapQFFWNB2wiYidBLOf/zHH9s3gAgGMkKmgs=
+			XgJUpCDgDGjnfj1GeCyCLUfz0q9UgtGeHc9xck+lzd4=
 			</data>
 		</dict>
 		<key>common_license.mlmodelc/metadata.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pNJB4oPfxQWBsgJ9VYeE9DasFS2nDNQXfO7tdqWVx3U=
+			O33x5c3esKdOfHDRXuHB5LE6re0AuX4ERBnaUM7Kejs=
 			</data>
 		</dict>
 		<key>common_license.mlmodelc/model0/analytics/coremldata.bin</key>
@@ -296,7 +322,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			dIwmtTGwNKnVHLfGrfP9DS3lF9I8igKX9Ym887cEmM8=
+			7M5RHTBl9xa/2jfomhpEGPWao2Qv3bQnXKVVmi45rOo=
 			</data>
 		</dict>
 		<key>common_license.mlmodelc/model0/model.mil</key>
@@ -325,6 +351,13 @@
 			<key>hash2</key>
 			<data>
 			dlIQ132GPSALs5zfjZ93qgjjwnxgateU+gsW2W9c9as=
+			</data>
+		</dict>
+		<key>common_move_away_ky.mp3</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			2efTXH4fiwuKhTySgnkSGYJymyD/TKVyeXRNzFnd2P0=
 			</data>
 		</dict>
 		<key>common_move_away_ru.caf</key>

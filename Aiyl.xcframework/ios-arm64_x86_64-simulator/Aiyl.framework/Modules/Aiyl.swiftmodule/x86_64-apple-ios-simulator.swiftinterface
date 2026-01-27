@@ -18,17 +18,6 @@ import Vision
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-@objc public enum AiylPresentationStyle : Swift.Int {
-  case Full = 0
-  case Sheet
-  #if compiler(>=5.3) && $NonescapableTypes
-  public init?(rawValue: Swift.Int)
-  #endif
-  public typealias RawValue = Swift.Int
-  public var rawValue: Swift.Int {
-    get
-  }
-}
 @_inheritsConvenienceInitializers @objc public class AiylConfig : ObjectiveC.NSObject {
   @objc public var locale: Aiyl.AiylLocale
   @objc public var entryMode: Aiyl.AiylEntryMode
@@ -44,12 +33,6 @@ import _SwiftConcurrencyShims
   @objc override dynamic public init()
   @objc deinit
 }
-@objc public class AiylException : ObjectiveC.NSObject {
-  @objc public var message: Swift.String
-  @objc public var code: Swift.Int
-  public init(message: Swift.String, code: Swift.Int)
-  @objc deinit
-}
 @objc public enum AiylCameraSelector : Swift.Int {
   case Front = 0
   case Back
@@ -61,10 +44,67 @@ import _SwiftConcurrencyShims
     get
   }
 }
-@_inheritsConvenienceInitializers @objc public class AiylPreviewSettings : ObjectiveC.NSObject {
-  @objc public var documentFront: Swift.Bool
-  @objc public var documentBack: Swift.Bool
-  @objc public var selfieWithDocument: Swift.Bool
+@objc public class AiylException : ObjectiveC.NSObject {
+  @objc public var message: Swift.String
+  @objc public var code: Swift.Int
+  public init(message: Swift.String, code: Swift.Int)
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class AiylAppearance : ObjectiveC.NSObject {
+  @objc public var colorPrimary: UIKit.UIColor?
+  @objc public var colorOnPrimary: UIKit.UIColor?
+  @objc public var colorNavigationBarBackground: UIKit.UIColor?
+  @objc public var colorNavigationBarForeground: UIKit.UIColor?
+  @objc public var colorOutline: UIKit.UIColor?
+  @objc public var colorDivider: UIKit.UIColor?
+  @objc public var colorProgressIndicatorActive: UIKit.UIColor?
+  @objc public var colorProgressIndicatorInactive: UIKit.UIColor?
+  @objc public var colorSuccess: UIKit.UIColor?
+  @objc public var colorError: UIKit.UIColor?
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc public enum AiylPresentationStyle : Swift.Int {
+  case Full = 0
+  case Sheet
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.Int)
+  #endif
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public enum AiylEntryMode : Swift.Int {
+  case FullIdent = 0
+  case SelfieAndDocument
+  case SelfieWithDocument
+  case PassportOnly
+  case SelfieOnly
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.Int)
+  #endif
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public enum AiylLocale : Swift.Int {
+  case Kyrgyz = 0
+  case English
+  case Russian
+  case Chinese
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.Int)
+  #endif
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@_inheritsConvenienceInitializers @objc public class AiylClient : ObjectiveC.NSObject {
+  @objc public class func showScanner(withConfig config: Aiyl.AiylConfig, withDelegate delegate: any Aiyl.AiylClientDelegate)
+  @objc public class func buildViewController(withConfig config: Aiyl.AiylConfig, withDelegate delegate: any Aiyl.AiylClientDelegate, showCancelButton: Swift.Bool = true, shouldDismiss: Swift.Bool = false) -> UIKit.UINavigationController
   @objc override dynamic public init()
   @objc deinit
 }
@@ -90,12 +130,6 @@ import _SwiftConcurrencyShims
   @objc override dynamic public init()
   @objc deinit
 }
-@_inheritsConvenienceInitializers @objc public class AiylClient : ObjectiveC.NSObject {
-  @objc public class func showScanner(withConfig config: Aiyl.AiylConfig, withDelegate delegate: any Aiyl.AiylClientDelegate)
-  @objc public class func buildViewController(withConfig config: Aiyl.AiylConfig, withDelegate delegate: any Aiyl.AiylClientDelegate, showCancelButton: Swift.Bool = true, shouldDismiss: Swift.Bool = false) -> UIKit.UINavigationController
-  @objc override dynamic public init()
-  @objc deinit
-}
 @objc public enum CommonCameraSelector : Swift.Int {
   case Front = 0
   case Back
@@ -107,64 +141,30 @@ import _SwiftConcurrencyShims
     get
   }
 }
+@_inheritsConvenienceInitializers @objc public class AiylPreviewSettings : ObjectiveC.NSObject {
+  @objc public var documentFront: Swift.Bool
+  @objc public var documentBack: Swift.Bool
+  @objc public var selfieWithDocument: Swift.Bool
+  @objc override dynamic public init()
+  @objc deinit
+}
 @objc public protocol AiylClientDelegate {
   @objc func onCompleted(result: Aiyl.AiylResult)
   @objc func onFailed(exception: Aiyl.AiylException)
   @objc func onCanceled()
 }
-@objc public enum AiylLocale : Swift.Int {
-  case Kyrgyz = 0
-  case English
-  case Russian
-  case Chinese
-  #if compiler(>=5.3) && $NonescapableTypes
-  public init?(rawValue: Swift.Int)
-  #endif
-  public typealias RawValue = Swift.Int
-  public var rawValue: Swift.Int {
-    get
-  }
-}
-@objc public enum AiylEntryMode : Swift.Int {
-  case FullIdent = 0
-  case SelfieAndDocument
-  case SelfieWithDocument
-  case PassportOnly
-  case SelfieOnly
-  #if compiler(>=5.3) && $NonescapableTypes
-  public init?(rawValue: Swift.Int)
-  #endif
-  public typealias RawValue = Swift.Int
-  public var rawValue: Swift.Int {
-    get
-  }
-}
-@_inheritsConvenienceInitializers @objc public class AiylAppearance : ObjectiveC.NSObject {
-  @objc public var colorPrimary: UIKit.UIColor?
-  @objc public var colorOnPrimary: UIKit.UIColor?
-  @objc public var colorBackground: UIKit.UIColor?
-  @objc public var colorOnBackground: UIKit.UIColor?
-  @objc public var colorOutline: UIKit.UIColor?
-  @objc public var colorDivider: UIKit.UIColor?
-  @objc public var colorProgressIndicatorActive: UIKit.UIColor?
-  @objc public var colorProgressIndicatorInactive: UIKit.UIColor?
-  @objc public var colorSuccess: UIKit.UIColor?
-  @objc public var colorError: UIKit.UIColor?
-  @objc override dynamic public init()
-  @objc deinit
-}
-extension Aiyl.AiylPresentationStyle : Swift.Equatable {}
-extension Aiyl.AiylPresentationStyle : Swift.Hashable {}
-extension Aiyl.AiylPresentationStyle : Swift.RawRepresentable {}
 extension Aiyl.AiylCameraSelector : Swift.Equatable {}
 extension Aiyl.AiylCameraSelector : Swift.Hashable {}
 extension Aiyl.AiylCameraSelector : Swift.RawRepresentable {}
-extension Aiyl.CommonCameraSelector : Swift.Equatable {}
-extension Aiyl.CommonCameraSelector : Swift.Hashable {}
-extension Aiyl.CommonCameraSelector : Swift.RawRepresentable {}
+extension Aiyl.AiylPresentationStyle : Swift.Equatable {}
+extension Aiyl.AiylPresentationStyle : Swift.Hashable {}
+extension Aiyl.AiylPresentationStyle : Swift.RawRepresentable {}
 extension Aiyl.AiylEntryMode : Swift.Equatable {}
 extension Aiyl.AiylEntryMode : Swift.Hashable {}
 extension Aiyl.AiylEntryMode : Swift.RawRepresentable {}
 extension Aiyl.AiylLocale : Swift.Equatable {}
 extension Aiyl.AiylLocale : Swift.Hashable {}
 extension Aiyl.AiylLocale : Swift.RawRepresentable {}
+extension Aiyl.CommonCameraSelector : Swift.Equatable {}
+extension Aiyl.CommonCameraSelector : Swift.Hashable {}
+extension Aiyl.CommonCameraSelector : Swift.RawRepresentable {}
